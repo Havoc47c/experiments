@@ -1,0 +1,14 @@
+---------------------------------------------------------------------------------
+Benchmark                                          Time           CPU Iterations
+---------------------------------------------------------------------------------
+[0;32mBM_Baseline                               [m[0;33m     58862 ns      58860 ns [m[0;36m     11876[m
+[m[0;32mBM_SetLastBaseline                        [m[0;33m    150346 ns     150341 ns [m[0;36m      4657[m
+[m[0;32mBM_IndexedAccessStaticCallToBaseObjects   [m[0;33m    150331 ns     150324 ns [m[0;36m      4657[m
+[m[0;32mBM_RangeBasedForStaticCallToBaseObjects   [m[0;33m    150107 ns     150105 ns [m[0;36m      4662[m
+[m[0;32mBM_IndexedAccessVirtualCallToBaseObjects  [m[0;33m    245807 ns     245799 ns [m[0;36m      2848[m
+[m[0;32mBM_RangeBasedForVirtualCallToBaseObjects  [m[0;33m    169391 ns     169386 ns [m[0;36m      4135[m
+[m[0;32mBM_RangeBasedForVirtualCallToBaseObjects2 [m[0;33m    221533 ns     221526 ns [m[0;36m      3160[m
+[m[0;32mBM_VirtualCallToBaseObjects               [m[0;33m    282758 ns     282754 ns [m[0;36m      2475[m
+[m[0;32mBM_SortedDerivedObject                    [m[0;33m    316665 ns     316661 ns [m[0;36m      2211[m
+[m[0;32mBM_RandomDerivedObject                    [m[0;33m    728228 ns     728211 ns [m[0;36m       961[m
+[m
